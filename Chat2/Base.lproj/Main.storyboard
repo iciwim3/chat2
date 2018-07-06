@@ -21,8 +21,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <segue destination="Jkq-eI-KXL" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="NR4-k0-ogc"/>
-                        <segue destination="R99-fo-LQ7" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="JM6-HJ-jsj"/>
+                        <segue destination="Jkq-eI-KXL" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="NR4-k0-ogc"/>
+                        <segue destination="R99-fo-LQ7" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="JM6-HJ-jsj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -79,17 +79,9 @@
                                     <constraint firstAttribute="height" constant="77" id="g0l-Rg-Pca"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To INFINITY!!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rT-Ci-Vs4">
-                                <rect key="frame" x="91.5" y="316" width="192" height="35"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="2rT-Ci-Vs4" firstAttribute="centerX" secondItem="Lu8-Ls-0wo" secondAttribute="centerX" id="OnA-A0-IHo"/>
-                            <constraint firstItem="2rT-Ci-Vs4" firstAttribute="centerY" secondItem="Lu8-Ls-0wo" secondAttribute="centerY" id="ROK-Tq-woN"/>
                             <constraint firstItem="pxz-TY-ITN" firstAttribute="top" secondItem="Lu8-Ls-0wo" secondAttribute="top" id="SaB-2A-1oW"/>
                             <constraint firstItem="pxz-TY-ITN" firstAttribute="trailing" secondItem="Q80-V7-vwK" secondAttribute="trailing" id="dp0-uq-GSF"/>
                             <constraint firstItem="pxz-TY-ITN" firstAttribute="leading" secondItem="Q80-V7-vwK" secondAttribute="leading" id="sId-vT-2mG"/>
