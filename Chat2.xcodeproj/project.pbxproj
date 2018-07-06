@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		433A811020EF803D00668CAD /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433A810F20EF803D00668CAD /* GradientView.swift */; };
 		43F798B420EC31BC00C63DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F798B320EC31BC00C63DE5 /* AppDelegate.swift */; };
 		43F798B920EC31BC00C63DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F798B720EC31BC00C63DE5 /* Main.storyboard */; };
 		43F798BB20EC31BD00C63DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F798BA20EC31BD00C63DE5 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		399D32230A729A34C38039A2 /* Pods-Chat2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chat2/Pods-Chat2.release.xcconfig"; sourceTree = "<group>"; };
+		433A810F20EF803D00668CAD /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		43F798B020EC31BC00C63DE5 /* Chat2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F798B320EC31BC00C63DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43F798B820EC31BC00C63DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		43F798CE20EC374A00C63DE5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				433A810F20EF803D00668CAD /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				43F798B420EC31BC00C63DE5 /* AppDelegate.swift in Sources */,
 				43F798CC20EC370600C63DE5 /* Identifiers.swift in Sources */,
+				433A811020EF803D00668CAD /* GradientView.swift in Sources */,
 				43F798C920EC359800C63DE5 /* SWRevealViewController.m in Sources */,
 				43F798D320EC37A200C63DE5 /* ChannelVC.swift in Sources */,
 				43F798D120EC376F00C63DE5 /* ChatVC.swift in Sources */,
