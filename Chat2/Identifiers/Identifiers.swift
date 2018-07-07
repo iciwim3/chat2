@@ -10,3 +10,6 @@ import Foundation
 
 let SW_FRONT = "sw_front"
 let SW_REAR = "sw_rear"
+let GO_TO_LOGIN_VC = "toLogin"
+
+
