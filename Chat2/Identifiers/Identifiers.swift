@@ -11,5 +11,6 @@ import Foundation
 let SW_FRONT = "sw_front"
 let SW_REAR = "sw_rear"
 let GO_TO_LOGIN_VC = "toLogin"
+let GO_TO_CREATE_VC = "createAccountVC"
 
-
+let UNWIND = "unwindToChannel"
